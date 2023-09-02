@@ -1,0 +1,21 @@
+:root {
+  --primary-color: rgba(0, 147, 121, 1);
+  --secondary-color: rgba(1, 109, 90, 1);
+  --grey-1-color: rgba(184, 184, 184, 1);
+  --grey-2-color: rgba(134, 134, 134, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --neutral-900: rgba(17, 24, 39, 1);
+  --white: rgba(255, 255, 255, 1);
+  --pos-UI-11-font-family: "Inter-Regular", Helvetica;
+  --pos-UI-11-font-weight: 400;
+  --pos-UI-11-font-size: 11px;
+  --pos-UI-11-letter-spacing: 0.055px;
+  --pos-UI-11-line-height: 16px;
+  --pos-UI-11-font-style: normal;
+  --neg-UI-11-medium-font-family: "Inter-Medium", Helvetica;
+  --neg-UI-11-medium-font-weight: 500;
+  --neg-UI-11-medium-font-size: 11px;
+  --neg-UI-11-medium-letter-spacing: 0.11px;
+  --neg-UI-11-medium-line-height: 16px;
+  --neg-UI-11-medium-font-style: normal;
+}

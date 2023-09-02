@@ -1,0 +1,535 @@
+.anima-dev-mode {
+  background-color: #2d2d2d;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.anima-dev-mode .div {
+  background-color: #2d2d2d;
+  width: 1280px;
+  height: 658px;
+  position: relative;
+}
+
+.anima-dev-mode .content {
+  display: flex;
+  flex-direction: column;
+  width: 361px;
+  height: 658px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 143px 0px 167px;
+  position: absolute;
+  top: 0;
+  left: 143px;
+}
+
+.anima-dev-mode .anima-logo {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.anima-dev-mode .text {
+  display: flex;
+  flex-direction: column;
+  width: 378px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -17px;
+}
+
+.anima-dev-mode .text-wrapper {
+  position: relative;
+  width: 421px;
+  margin-top: -1px;
+  margin-right: -43px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 60px;
+  letter-spacing: 0;
+  line-height: 70px;
+}
+
+.anima-dev-mode .p {
+  position: relative;
+  width: 424px;
+  margin-right: -46px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: #f8d57e;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.anima-dev-mode .image {
+  position: absolute;
+  width: 720px;
+  height: 658px;
+  top: 0;
+  left: 560px;
+  background-color: #f8d57e;
+  overflow: hidden;
+}
+
+.anima-dev-mode .user-card {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 0px 0px 16px;
+  position: absolute;
+  top: 81px;
+  left: 38px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.anima-dev-mode .user-thumbnail {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 200px;
+  background-image: url(./img/sebastian-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .text-social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 0px 16px 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #d7d7d7;
+}
+
+.anima-dev-mode .title-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.anima-dev-mode .title {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Mulish", Helvetica;
+  font-weight: 800;
+  color: var(--neutral-900);
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.anima-dev-mode .description {
+  position: relative;
+  align-self: stretch;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 19.2px;
+}
+
+.anima-dev-mode .primary-button {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: relative;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .label {
+  position: relative;
+  width: fit-content;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--white-color);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.anima-dev-mode .icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-top: -2px;
+  margin-bottom: -2px;
+}
+
+.anima-dev-mode .user-card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  padding: 16px;
+  position: absolute;
+  top: 504px;
+  left: 38px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.anima-dev-mode .title-description-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.anima-dev-mode .user-name-thumbnail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.anima-dev-mode .user-thumbnail-2 {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 23.53px;
+  background-image: url(./img/laura-1.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .user-name {
+  position: relative;
+  flex: 1;
+  font-family: "Mulish", Helvetica;
+  font-weight: 800;
+  color: var(--neutral-900);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 23.4px;
+}
+
+.anima-dev-mode .description-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Mulish", Helvetica;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 19.2px;
+}
+
+.anima-dev-mode .button {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .img {
+  height: 20px;
+  margin-bottom: -107px;
+  margin-right: -10117.5px;
+  position: relative;
+  width: 20px;
+}
+
+.anima-dev-mode .sarah-wrapper {
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  top: 705px;
+  left: 591px;
+  border-radius: 83.91px;
+  overflow: hidden;
+}
+
+.anima-dev-mode .sarah {
+  position: absolute;
+  width: 143px;
+  height: 143px;
+  top: 49px;
+  left: 9610px;
+  object-fit: cover;
+}
+
+.anima-dev-mode .group {
+  position: absolute;
+  width: 239px;
+  height: 44px;
+  top: 17px;
+  left: 38px;
+}
+
+.anima-dev-mode .user-thumbnail-3 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 0;
+  border-radius: 25.79px;
+  background-image: url(./img/sebastian.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .user-thumbnail-4 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 130px;
+  border-radius: 25.79px;
+  background-image: url(./img/alicia.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .user-thumbnail-5 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 195px;
+  border-radius: 25.79px;
+  background-image: url(./img/sarah.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .user-thumbnail-6 {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 0;
+  left: 65px;
+  border-radius: 25.79px;
+  background-image: url(./img/david.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.anima-dev-mode .image-2 {
+  position: absolute;
+  width: 410px;
+  height: 508px;
+  top: 129px;
+  left: 298px;
+}
+
+.anima-dev-mode .button-source {
+  position: absolute;
+  width: 397px;
+  height: 386px;
+  top: -279px;
+  left: 303px;
+}
+
+.anima-dev-mode .overlap-group {
+  position: relative;
+  width: 399px;
+  height: 388px;
+  top: -1px;
+  left: -1px;
+  border-radius: 3px;
+}
+
+.anima-dev-mode .primary-button-2 {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 321px;
+  left: 46px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--grey-1-color);
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .label-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--grey-1-color);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.anima-dev-mode .primary-button-3 {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 261px;
+  left: 46px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--secondary-color);
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .label-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -5px;
+  margin-bottom: -3px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: var(--secondary-color);
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.anima-dev-mode .icon-2 {
+  height: 11px;
+  margin-bottom: -2px;
+  position: relative;
+  width: 20px;
+}
+
+.anima-dev-mode .primary-button-4 {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 321px;
+  left: 222px;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .primary-button-5 {
+  display: inline-flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 20px;
+  position: absolute;
+  top: 261px;
+  left: 222px;
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  all: unset;
+  box-sizing: border-box;
+}
+
+.anima-dev-mode .selection-bounds {
+  position: absolute;
+  width: 399px;
+  height: 388px;
+  top: 0;
+  left: 0;
+  border-radius: 3px;
+  border: 1px dashed;
+  border-color: #9747ff;
+}
+
+.anima-dev-mode .label-icon {
+  position: absolute;
+  top: -16px;
+  left: -1px;
+  font-family: var(--pos-UI-11-font-family);
+  font-weight: var(--pos-UI-11-font-weight);
+  color: #9747ff;
+  font-size: var(--pos-UI-11-font-size);
+  letter-spacing: var(--pos-UI-11-letter-spacing);
+  line-height: var(--pos-UI-11-line-height);
+  white-space: nowrap;
+  font-style: var(--pos-UI-11-font-style);
+}
+
+.anima-dev-mode .label-4 {
+  position: absolute;
+  top: -16px;
+  left: 14px;
+  font-family: var(--pos-UI-11-font-family);
+  font-weight: var(--pos-UI-11-font-weight);
+  color: #9747ff;
+  font-size: var(--pos-UI-11-font-size);
+  letter-spacing: var(--pos-UI-11-letter-spacing);
+  line-height: var(--pos-UI-11-line-height);
+  white-space: nowrap;
+  font-style: var(--pos-UI-11-font-style);
+}
